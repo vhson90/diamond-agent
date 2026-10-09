@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DiamondAgent | Enterprise Multi-Agent Knowledge Engine</title>
+  <meta name="description" content="Next-generation autonomous agent orchestration powered by Anthropic Claude 3.5 & Model Context Protocol (MCP). Built by Hanh Trinh Diamond.">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; }
+    .bg-radial {
+      background: radial-gradient(circle at 50% 20%, rgba(99, 102, 241, 0.15) 0%, rgba(15, 23, 42, 0) 70%);
+    }
+    .glow-border {
+      box-shadow: 0 0 25px -5px rgba(129, 140, 248, 0.3);
+    }
+  </style>
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen selection:bg-indigo-500 selection:text-white">
+
+  <!-- Navigation -->
+  <header class="border-b border-slate-800/80 sticky top-0 z-50 backdrop-blur-xl bg-slate-950/80">
+    <div class="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <div class="w-9 h-9 rounded-xl bg-gradient-to-tr from-indigo-500 via-sky-400 to-teal-300 flex items-center justify-center font-bold text-slate-950 text-xl shadow-lg shadow-indigo-500/20">
+          💎
+        </div>
+        <span class="font-bold text-xl tracking-tight bg-clip-text text-transparent bg-gradient-to-r from-white via-slate-200 to-indigo-300">
+          DiamondAgent
+        </span>
+        <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-indigo-500/10 text-indigo-400 border border-indigo-500/20">
+          Claude 3.5 & MCP Native
+        </span>
+      </div>
+      <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-slate-400">
+        <a href="#features" class="hover:text-white transition">Architecture</a>
+        <a href="#mcp" class="hover:text-white transition">MCP Standard</a>
+        <a href="#benchmarks" class="hover:text-white transition">Benchmarks</a>
+        <a href="https://github.com" target="_blank" class="hover:text-white transition flex items-center gap-1.5">
+          <span>GitHub</span>
+          <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.484 2 12.017c0 4.425 2.865 8.18 6.839 9.504.5.092.682-.217.682-.483 0-.237-.008-.868-.013-1.703-2.782.605-3.369-1.343-3.369-1.343-.454-1.158-1.11-1.466-1.11-1.466-.908-.62.069-.608.069-.608 1.003.07 1.53 1.032 1.53 1.032.892 1.53 2.341 1.088 2.91.832.092-.647.35-1.088.636-1.338-2.22-.253-4.555-1.113-4.555-4.951 0-1.093.39-1.988 1.029-2.688-.103-.253-.446-1.272.098-2.65 0 0 .84-.27 2.75 1.026A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.296 2.747-1.027 2.747-1.027.546 1.379.202 2.398.1 2.651.64.7 1.028 1.595 1.028 2.688 0 3.848-2.339 4.695-4.566 4.943.359.309.678.92.678 1.855 0 1.338-.012 2.419-.012 2.747 0 .268.18.58.688.482A10.019 10.019 0 0022 12.017C22 6.484 17.522 2 12 2z"/></svg>
+        </a>
+      </nav>
+      <div class="flex items-center space-x-3">
+        <a href="mailto:contact@hanhtrinhdiamond.com" class="px-4 py-2 rounded-lg bg-indigo-600 hover:bg-indigo-500 font-medium text-sm text-white transition shadow-lg shadow-indigo-600/30">
+          Request Early Access
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="relative pt-24 pb-20 overflow-hidden bg-radial">
+    <div class="max-w-5xl mx-auto px-6 text-center">
+      <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-900 border border-slate-700/80 text-xs text-slate-300 mb-8">
+        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+        <span>Hanh Trinh Diamond Technology Platform</span>
+      </div>
+
+      <h1 class="text-4xl sm:text-6xl lg:text-7xl font-extrabold tracking-tight text-white mb-8">
+        Autonomous Multi-Agent <br class="hidden sm:inline" />
+        <span class="bg-clip-text text-transparent bg-gradient-to-r from-indigo-400 via-sky-300 to-teal-300">
+          Orchestration for Enterprise
+        </span>
+      </h1>
+
+      <p class="text-lg sm:text-xl text-slate-400 max-w-3xl mx-auto leading-relaxed mb-10">
+        DiamondAgent fuses Anthropic's state-of-the-art <strong>Claude 3.5 Sonnet</strong> intelligence with the open <strong>Model Context Protocol (MCP)</strong> to decompose, execute, and verify mission-critical business workflows at scale.
+      </p>
+
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+        <a href="mailto:contact@hanhtrinhdiamond.com" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-indigo-500 to-sky-500 hover:from-indigo-600 hover:to-sky-600 font-semibold text-white shadow-xl shadow-indigo-500/25 transition">
+          Get Started with DiamondAgent
+        </a>
+        <a href="#mcp" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-slate-900 hover:bg-slate-850 border border-slate-800 font-semibold text-slate-300 hover:text-white transition">
+          Explore MCP Architecture
+        </a>
+      </div>
+
+      <!-- Live Terminal Mockup -->
+      <div class="mt-16 text-left rounded-2xl bg-slate-900/90 border border-slate-800 p-6 shadow-2xl glow-border">
+        <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+          <div class="flex items-center space-x-2">
+            <div class="w-3 h-3 rounded-full bg-rose-500"></div>
+            <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+            <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+            <span class="ml-3 text-xs text-slate-400 font-mono">diamond-agent --pipeline enterprise-audit</span>
+          </div>
+          <span class="text-xs font-mono text-indigo-400">Claude 3.5 Sonnet Active</span>
+        </div>
+        <pre class="mt-4 text-xs sm:text-sm font-mono text-slate-300 overflow-x-auto leading-relaxed">
+<span class="text-slate-500"># 1. Goal Deconstruction: Planner Agent</span>
+<span class="text-indigo-400">[PLANNER]</span> Goal decomposed into 3 sub-tasks: [T1: Schema Audit, T2: Security Scan, T3: Synthetic Synthesis]
+<span class="text-slate-500"># 2. Worker Execution via Model Context Protocol (MCP)</span>
+<span class="text-emerald-400">[WORKER T1]</span> Executed MCP Tool: <span class="text-amber-300">fs_tools.read_file("database_schema.sql")</span> (Duration: 14ms)
+<span class="text-emerald-400">[WORKER T2]</span> Executed MCP Tool: <span class="text-amber-300">code_runner.run_python("verify_constraints()")</span> (Passed: 100%)
+<span class="text-slate-500"># 3. Quality Review: Critic Agent</span>
+<span class="text-sky-400">[CRITIC]</span> Verification approved: Score 9.8/10. Deliverables compiled with Prompt Caching (68% token savings).
+        </pre>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features Grid -->
+  <section id="features" class="py-20 border-t border-slate-900 bg-slate-950">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <h2 class="text-3xl font-bold text-white mb-4">Engineered for Frontier Reliability</h2>
+        <p class="text-slate-400 text-sm sm:text-base">Built to replace brittle linear chains with robust, self-correcting multi-agent networks.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/40 transition">
+          <div class="text-3xl mb-4">🧠</div>
+          <h3 class="text-xl font-bold text-white mb-2">Hierarchical Multi-Agent</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Specialized Planner, Worker, and Critic roles collaborate dynamically to guarantee deliverable precision and avoid hallucinations.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/40 transition">
+          <div class="text-3xl mb-4">⚡</div>
+          <h3 class="text-xl font-bold text-white mb-2">Prompt Caching Optimization</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Deep integration with Anthropic ephemeral caching slashes token latency by up to 85% and cuts API running costs by more than 50%.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl bg-slate-900/60 border border-slate-800 hover:border-indigo-500/40 transition">
+          <div class="text-3xl mb-4">🔌</div>
+          <h3 class="text-xl font-bold text-white mb-2">Open MCP Standard</h3>
+          <p class="text-slate-400 text-sm leading-relaxed">Native client and server implementations of Model Context Protocol for secure sandboxed file operations, code execution, and data retrieval.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="border-t border-slate-800/80 py-12 bg-slate-950 text-slate-500 text-xs">
+    <div class="max-w-7xl mx-auto px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+      <div>
+        <p class="font-medium text-slate-400">© 2026 Hanh Trinh Diamond. All rights reserved.</p>
+        <p class="mt-1">Domain: <a href="https://hanhtrinhdiamond.com" class="hover:text-indigo-400 underline">hanhtrinhdiamond.com</a> | Inquiries: <a href="mailto:contact@hanhtrinhdiamond.com" class="hover:text-indigo-400 underline">contact@hanhtrinhdiamond.com</a></p>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="#features" class="hover:text-slate-300">Privacy</a>
+        <a href="#mcp" class="hover:text-slate-300">Terms of Service</a>
+        <a href="https://claude.com/programs/startups" target="_blank" class="hover:text-slate-300">Anthropic Startup Ecosystem</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
