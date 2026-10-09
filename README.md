@@ -3,7 +3,7 @@
 **Enterprise Autonomous Multi-Agent Orchestration & Knowledge Graph Engine**  
 *Built natively for Anthropic Claude 3.5 Sonnet, Claude 3 Opus, and the Model Context Protocol (MCP).*
 
-[![CI](https://github.com/hanhtrinhdiamond/diamond-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/hanhtrinhdiamond/diamond-agent)
+[![CI](https://github.com/vhson90/diamond-agent/actions/workflows/ci.yml/badge.svg)](https://github.com/vhson90/diamond-agent)
 [![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 [![Python: 3.10+](https://img.shields.io/badge/python-3.10%2B-brightgreen.svg)](https://www.python.org/)
 [![Model: Claude 3.5 Sonnet](https://img.shields.io/badge/Claude-3.5_Sonnet-orange.svg)](https://claude.com)
@@ -64,7 +64,7 @@ flowchart TD
 
 ### 1. Installation
 ```bash
-git clone https://github.com/hanhtrinhdiamond/diamond-agent.git
+git clone https://github.com/vhson90/diamond-agent.git
 cd diamond-agent
 pip install -r requirements.txt
 ```
